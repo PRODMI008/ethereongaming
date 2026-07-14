@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/xmlschema-instance"
+	xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://ethereongaming.ru/</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/blog</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/about</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/compatibility</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/download</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/quickstart</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/roadmap</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/branding</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/faq</loc>
+</url>
+<url>
+  <loc>https://ethereongaming.ru/disclaimer</loc>
+</url>
+</urlset>

@@ -1,0 +1,31 @@
+{
+    "posts": [
+        {
+            "id": "dissgame-partnership",
+            "title": "Сотрудничество с DissGame",
+            "thumbnail": "/img/videos/1.jpg",
+            "animate_class": "page-video-1",
+            "scale_class": "scale-content-txt-4",
+            "content": "Мы сообщаем вам,что EthereonGaming и DissGame заключили сотрудничество!🤝\n\nDissGame — это турнирная организация с опытом и собственным подходом. Вместе мы планируем проводить совместные турниры, расширять форматы и делать события интереснее для игроков",
+            "tags": "#EGWiN #Partners #DissGame"
+        },
+        {
+            "id": "tiktok-launch",
+            "title": "Мы теперь есть в TikTok",
+            "thumbnail": "/img/videos/2.jpg",
+            "animate_class": "page-video-2",
+            "scale_class": "scale-content-txt-5",
+            "content": "Мы теперь есть в TikTok!\r\nПродолжаем осваивать новые соц-сети.\r\n\r\nhttps://www.tiktok.com/@ethereongaming?_r=1&_t=ZS-97fdNxhKVAw\r\n\r\nЧерез 10 дней нам исполняется уже пол-года! К этому моменту готовим для вас кое-что.",
+            "tags": "#EGWiN🏆"
+        },
+        {
+            "id": "emoji-pack-rework",
+            "title": "Переработка эмодзи-пака",
+            "thumbnail": "/img/videos/3.jpg",
+            "animate_class": "page-video-3",
+            "scale_class": "scale-content-txt-6",
+            "content": "Мы полностью переработали наш эмодзи-пак — и он уже ждёт вас ниже.\r\n\r\nhttps://t.me/addemoji/EthereonGamingEmojiPack\r\n\r\nМы пересматриваем подход к постам и контенту. В ближайшее время поделимся с вами новостями!",
+            "tags": "#EGWiN🏆"
+        }
+    ]
+}

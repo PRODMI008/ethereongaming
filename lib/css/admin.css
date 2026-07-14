@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+body {
+    background: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== Форма входа ===== */
+.admin-login-box {
+    max-width: 360px;
+    margin: 80px auto;
+    background: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5);
+}
+.admin-login-box h1 {
+    margin: 0 0 20px;
+    font-size: 22px;
+    color: #fafafa;
+    text-align: center;
+}
+.admin-login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.admin-login-box label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 13px;
+    color: #999;
+}
+.admin-login-box input {
+    background: #1f1f1f;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .15s;
+}
+.admin-login-box input:focus {
+    border-color: #6a9cff;
+}
+.admin-login-box button {
+    margin-top: 6px;
+    background: #4a7ec9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .15s;
+}
+.admin-login-box button:hover {
+    background: #5a8ee0;
+}
+
+/* ===== Шапка панели ===== */
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+.admin-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fafafa;
+}
+.admin-logout-form button {
+    background: #6a2d2d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background .15s;
+}
+.admin-logout-form button:hover {
+    background: #8a3a3a;
+}
+
+/* ===== Сообщения ===== */
+.admin-msg {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.admin-ok {
+    background: #1e3a1e;
+    color: #6bd86b;
+    border: 1px solid #2d5a2d;
+}
+.admin-err {
+    background: #3a1e1e;
+    color: #e07070;
+    border: 1px solid #5a2d2d;
+}
+
+/* ===== Секции ===== */
+.admin-section {
+    background: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.admin-section h2 {
+    margin: 0 0 16px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+/* ===== Форма поста ===== */
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.admin-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 13px;
+    color: #999;
+}
+.admin-form input,
+.admin-form textarea {
+    background: #1f1f1f;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color .15s;
+}
+.admin-form input:focus,
+.admin-form textarea:focus {
+    border-color: #6a9cff;
+}
+.admin-form textarea {
+    resize: vertical;
+}
+.admin-row {
+    display: flex;
+    gap: 14px;
+}
+.admin-row label {
+    flex: 1;
+}
+.admin-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.admin-form button {
+    background: #4a7ec9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background .15s;
+}
+.admin-form button:hover {
+    background: #5a8ee0;
+}
+.admin-btn-cancel {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+.admin-btn-cancel:hover {
+    color: #fff;
+}
+
+/* ===== Таблица постов ===== */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.admin-table th {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid #444;
+    color: #aaa;
+    font-weight: 600;
+    font-size: 13px;
+}
+.admin-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #3a3a3a;
+    color: #ddd;
+}
+.admin-table tr:hover td {
+    background: #333;
+}
+.admin-col-id {
+    color: #999;
+    font-family: Consolas, monospace;
+    font-size: 12px;
+}
+.admin-col-actions {
+    white-space: nowrap;
+}
+.admin-btn-edit {
+    display: inline-block;
+    color: #6a9cff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.admin-btn-edit:hover {
+    text-decoration: underline;
+}
+.admin-btn-del {
+    background: #6a2d2d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background .15s;
+}
+.admin-btn-del:hover {
+    background: #8a3a3a;
+}
+.admin-inline {
+    display: inline;
+}
+.admin-preview {
+    margin: -4px 0 4px;
+}
+.admin-form input[type="file"] {
+    padding: 8px 0;
+    border: none;
+    color: #ddd;
+    background: transparent;
+}
+.admin-empty {
+    color: #777;
+    font-style: italic;
+}
